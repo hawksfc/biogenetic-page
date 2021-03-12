@@ -1,38 +1,94 @@
-.App {
-  text-align: center;
+/*Generals*/
+
+*{
+    font-family: 'Poppins', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.txt-motivation{
+    font-family: 'Poppins';
+    font-weight: 700;
+    font-size: 1.5em;
+    color: gainsboro;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/*Generals Class*/
+.social-media{
+    margin-left: 50px;
+    display: inline-block;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.social-media a:link, .social-media a:visited{
+    color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.social-media:hover a{
+    color: rgb(84, 230, 48);
+}
+.social-media-horizontal{
+    margin-top: 20px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding-left: 0;
+}
+.social-media-end{
+    margin-right: 50px;
+}
+.bio-green{
+    background: rgb(84, 230, 48);
+    height: 5px;
+}
+.bio-dark{
+    background: rgb(38, 39, 37);
+    color: white;
+    height: fit-content;
+}
+.list-none{
+    list-style: none;
+}
+/*Specifics Class*/
+
+/*----------Navbar-----------*/
+.expanding{/*Menu animate*/
+    transition: height 0.5s;
+    overflow: hidden;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.expandido{
+    height: 180px;
+    border-radius: 5px;
+}
+
+.contraido{
+    height: 0;  
+}
+
+@media only screen and (min-width: 990px){
+    .contraido{
+        height: auto;  
+    }
+    .expandido{
+        height: auto;
+    }
+    .social-media-horizontal{
+        margin-top: 5px;
+    }
+    .social-media{
+        margin-left: 20px;
+    }
+    .social-media-end{
+        margin-right: 20px;
+    }
+}
+
+.list-nav a:visited, .list-nav a:link{
+    color: white;
+}
+
+.list-nav a:hover{
+    color: rgb(84, 230, 48);;
+}
+
+.copyright{
+    font-size: 0.75em;
 }
