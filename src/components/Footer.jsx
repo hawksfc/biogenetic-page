@@ -13,13 +13,13 @@ const Footer = () => {
                     <h3 className="ml-4 mt-4">Menu</h3>
                     <ul className="list-none mt-2 list-nav">
                         <li className="mb-2">
-                            <Link to="/">Inicio</Link>
+                            <Link to="biogenetic-page/build/">Inicio</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="/services">Servicios</Link>
+                            <Link to="biogenetic-page/build/services">Servicios</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="/contact">Contacto</Link>
+                            <Link to="biogenetic-page/build/contact">Contacto</Link>
                         </li>
                     </ul>
                 </div>
@@ -45,7 +45,7 @@ const Footer = () => {
                             </a>
                         </li>
                         <li className="social-media-2 mb-3">
-                            <a href="mailto:jsjsjs">
+                            <a href="mailto:biogenetictrainingsystems@gmail.con">
                                 <FontIcon icon={faEnvelope} size="lg" className="mr-2"/>
                                 Email
                             </a>

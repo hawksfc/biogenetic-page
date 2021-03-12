@@ -44,13 +44,13 @@ function App() {
           <div className={`collapse expanding navbar-collapse show ${showMenu}`} id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
-                <Link to="/" className="text-success btn btn-outline-success mt-1 btn-block">Home</Link>
+                <Link to="biogenetic-page/build/" className="text-success btn btn-outline-success mt-1 btn-block">Home</Link>
               </li>
               <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
-                <Link to="/services" className="text-success btn btn-outline-success mt-1 btn-block">Servicios</Link>
+                <Link to="biogenetic-page/build/services" className="text-success btn btn-outline-success mt-1 btn-block">Servicios</Link>
               </li>
               <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
-                <Link to="/contact" className="text-success btn btn-outline-success mt-1 btn-block">Contacto</Link>
+                <Link to="biogenetic-page/build/contact" className="text-success btn btn-outline-success mt-1 btn-block">Contacto</Link>
               </li>
               <ul className="social-media-horizontal">
                 <li className="social-media">
