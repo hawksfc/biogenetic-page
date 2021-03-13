@@ -27,19 +27,19 @@ const Footer = () => {
                     <h3 className="ml-4 mt-4">Contacto</h3>
                     <ul className="list-none mt-3 list-nav">
                         <li className="social-media-2 mb-3">
-                            <a href="https://www.facebook.com/biogenetictrainingsystems" target="_blank">
+                            <a href="https://www.facebook.com/biogenetictrainigsystems" target="_blank" rel="noreferrer">
                                 <FontIcon icon={faFacebook} size="lg" className="mr-2"/>
                                 Facebook
                             </a>
                         </li>
                         <li className="social-media-2 mb-3">
-                            <a href="https://instagram.com/jesus_camdesant?iqshid=1a9d281zbo2q3" target="_blank" >
+                            <a href="https://instagram.com/jesus_camdesant?iqshid=1a9d281zbo2q3" target="_blank" rel="noreferrer">
                                 <FontIcon icon={faInstagram} size="lg" className="mr-2"/>
                                 Instagram
                             </a>
                         </li>
                         <li className="social-media-2 mb-3">
-                            <a href="https://api.whatsapp.com/send?phone=+524921116947" target="_blank" >
+                            <a href="https://api.whatsapp.com/send?phone=+524921116947" target="_blank" rel="noreferrer">
                                 <FontIcon icon={faWhatsapp} size="lg" className="mr-2"/>
                                 Whatsapp
                             </a>

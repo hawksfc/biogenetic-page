@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import {
   BrowserRouter as Router,
   Switch,
@@ -27,10 +27,9 @@ function App() {
       setShowMenu("expandido");
       viewMenu(true);
     }
-    console.log(screen.width);
+    console.log(window.screen.width);
     
   }
-
 
 
   return (
@@ -43,24 +42,24 @@ function App() {
           </button>
           <div className={`collapse expanding navbar-collapse show ${showMenu}`} id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
+              <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
                 <Link to="biogenetic-page/build/" className="text-success btn btn-outline-success mt-1 btn-block">Home</Link>
               </li>
-              <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
+              <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
                 <Link to="biogenetic-page/build/services" className="text-success btn btn-outline-success mt-1 btn-block">Servicios</Link>
               </li>
-              <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
+              <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
                 <Link to="biogenetic-page/build/contact" className="text-success btn btn-outline-success mt-1 btn-block">Contacto</Link>
               </li>
               <ul className="social-media-horizontal">
                 <li className="social-media">
-                  <a href="https://www.facebook.com/biogenetictrainingsystems" target="_blank" ><FontIcon icon={faFacebook} size="2x"/></a>
+                  <a href="https://www.facebook.com/biogenetictrainigsystems" target="_blank" rel="noreferrer"><FontIcon icon={faFacebook} size="2x"/></a>
                 </li>
                 <li className="social-media">
-                  <a href="https://instagram.com/jesus_camdesant?iqshid=1a9d281zbo2q3" target="_blank" ><FontIcon icon={faInstagram} size="2x"/></a>
+                  <a href="https://instagram.com/jesus_camdesant?iqshid=1a9d281zbo2q3" target="_blank" rel="noreferrer"><FontIcon icon={faInstagram} size="2x"/></a>
                 </li>
                 <li className="social-media social-media-end">
-                  <a href="https://api.whatsapp.com/send?phone=+524921116947" target="_blank" ><FontIcon icon={faWhatsapp} size="2x"/></a>
+                  <a href="https://api.whatsapp.com/send?phone=+524921116947" target="_blank" rel="noreferrer"><FontIcon icon={faWhatsapp} size="2x"/></a>
                 </li>
               </ul>
             </ul>
