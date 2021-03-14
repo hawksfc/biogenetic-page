@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/hawksfc.github.io/biogenetic-page/static/css/main.1197fd37.chunk.css",
-    "main.js": "/hawksfc.github.io/biogenetic-page/static/js/main.7d564ea9.chunk.js",
-    "main.js.map": "/hawksfc.github.io/biogenetic-page/static/js/main.7d564ea9.chunk.js.map",
+    "main.js": "/hawksfc.github.io/biogenetic-page/static/js/main.0c8fc985.chunk.js",
+    "main.js.map": "/hawksfc.github.io/biogenetic-page/static/js/main.0c8fc985.chunk.js.map",
     "runtime-main.js": "/hawksfc.github.io/biogenetic-page/static/js/runtime-main.b58ffa45.js",
     "runtime-main.js.map": "/hawksfc.github.io/biogenetic-page/static/js/runtime-main.b58ffa45.js.map",
     "static/css/2.658248ec.chunk.css": "/hawksfc.github.io/biogenetic-page/static/css/2.658248ec.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.658248ec.chunk.css",
     "static/js/2.561e2e06.chunk.js",
     "static/css/main.1197fd37.chunk.css",
-    "static/js/main.7d564ea9.chunk.js"
+    "static/js/main.0c8fc985.chunk.js"
   ]
 }
