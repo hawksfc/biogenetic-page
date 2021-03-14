@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/biogenetic-page/static/css/main.1197fd37.chunk.css",
-    "main.js": "/biogenetic-page/static/js/main.d38a3f4d.chunk.js",
-    "main.js.map": "/biogenetic-page/static/js/main.d38a3f4d.chunk.js.map",
+    "main.css": "/biogenetic-page/static/css/main.8fa18b82.chunk.css",
+    "main.js": "/biogenetic-page/static/js/main.308df7f2.chunk.js",
+    "main.js.map": "/biogenetic-page/static/js/main.308df7f2.chunk.js.map",
     "runtime-main.js": "/biogenetic-page/static/js/runtime-main.f592757b.js",
     "runtime-main.js.map": "/biogenetic-page/static/js/runtime-main.f592757b.js.map",
     "static/css/2.658248ec.chunk.css": "/biogenetic-page/static/css/2.658248ec.chunk.css",
-    "static/js/2.561e2e06.chunk.js": "/biogenetic-page/static/js/2.561e2e06.chunk.js",
-    "static/js/2.561e2e06.chunk.js.map": "/biogenetic-page/static/js/2.561e2e06.chunk.js.map",
+    "static/js/2.4e486dec.chunk.js": "/biogenetic-page/static/js/2.4e486dec.chunk.js",
+    "static/js/2.4e486dec.chunk.js.map": "/biogenetic-page/static/js/2.4e486dec.chunk.js.map",
     "index.html": "/biogenetic-page/index.html",
     "static/css/2.658248ec.chunk.css.map": "/biogenetic-page/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.1197fd37.chunk.css.map": "/biogenetic-page/static/css/main.1197fd37.chunk.css.map",
-    "static/js/2.561e2e06.chunk.js.LICENSE.txt": "/biogenetic-page/static/js/2.561e2e06.chunk.js.LICENSE.txt",
+    "static/css/main.8fa18b82.chunk.css.map": "/biogenetic-page/static/css/main.8fa18b82.chunk.css.map",
+    "static/js/2.4e486dec.chunk.js.LICENSE.txt": "/biogenetic-page/static/js/2.4e486dec.chunk.js.LICENSE.txt",
     "static/media/logo_biogenetic.05d98212.png": "/biogenetic-page/static/media/logo_biogenetic.05d98212.png"
   },
   "entrypoints": [
     "static/js/runtime-main.f592757b.js",
     "static/css/2.658248ec.chunk.css",
-    "static/js/2.561e2e06.chunk.js",
-    "static/css/main.1197fd37.chunk.css",
-    "static/js/main.d38a3f4d.chunk.js"
+    "static/js/2.4e486dec.chunk.js",
+    "static/css/main.8fa18b82.chunk.css",
+    "static/js/main.308df7f2.chunk.js"
   ]
 }
