@@ -27,7 +27,7 @@ function App() {
       setShowMenu("expandido");
       viewMenu(true);
     }
-    console.log(screen.width);
+    console.log(window.screen.width);
     
   }
 
@@ -36,20 +36,20 @@ function App() {
   return (
     <Router>
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bio-dark">
+        <nav className="navbar navbar-expand-lg navbar-dark bio-dark m-0 p-0">
           <Link to="/" className="navbar-brand ml-1"><img width="100" src={logo} alt="Logo"/></Link>
           <button className="navbar-toggler" type="button" onClick={toggleMenu}>
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className={`collapse expanding navbar-collapse show ${showMenu}`} id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
-              <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
+              <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
                 <Link to="biogenetic-page/build/" className="text-success btn btn-outline-success mt-1 btn-block">Home</Link>
               </li>
-              <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
+              <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
                 <Link to="biogenetic-page/build/services" className="text-success btn btn-outline-success mt-1 btn-block">Servicios</Link>
               </li>
-              <li className="nav-item ml-1 mr-1" onClick={screen.width < 992 ? toggleMenu : null}>
+              <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
                 <Link to="biogenetic-page/build/contact" className="text-success btn btn-outline-success mt-1 btn-block">Contacto</Link>
               </li>
               <ul className="social-media-horizontal">
