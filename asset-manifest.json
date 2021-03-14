@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/biogenetic-page/static/css/main.1197fd37.chunk.css",
-    "main.js": "/biogenetic-page/static/js/main.0c8fc985.chunk.js",
-    "main.js.map": "/biogenetic-page/static/js/main.0c8fc985.chunk.js.map",
+    "main.js": "/biogenetic-page/static/js/main.fae41c7e.chunk.js",
+    "main.js.map": "/biogenetic-page/static/js/main.fae41c7e.chunk.js.map",
     "runtime-main.js": "/biogenetic-page/static/js/runtime-main.f592757b.js",
     "runtime-main.js.map": "/biogenetic-page/static/js/runtime-main.f592757b.js.map",
     "static/css/2.658248ec.chunk.css": "/biogenetic-page/static/css/2.658248ec.chunk.css",
@@ -19,6 +19,6 @@
     "static/css/2.658248ec.chunk.css",
     "static/js/2.561e2e06.chunk.js",
     "static/css/main.1197fd37.chunk.css",
-    "static/js/main.0c8fc985.chunk.js"
+    "static/js/main.fae41c7e.chunk.js"
   ]
 }
