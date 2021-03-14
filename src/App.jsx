@@ -35,21 +35,27 @@ function App() {
   return (
     <Router>
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bio-dark">
-          <Link to="/" className="navbar-brand ml-1"><img width="100" src={logo} alt="Logo"/></Link>
+        <nav className="navbar navbar-expand-lg navbar-dark bio-dark m-0 p-0">
+          <Link to="/biogenetic-page/" className="navbar-brand ml-1"><img width="100" src={logo} alt="Logo"/></Link>
           <button className="navbar-toggler" type="button" onClick={toggleMenu}>
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className={`collapse expanding navbar-collapse show ${showMenu}`} id="navbarSupportedContent">
             <ul className="navbar-nav ml-auto">
               <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
-                <Link to="biogenetic-page/build/" className="text-success btn btn-outline-success mt-1 btn-block">Home</Link>
+                <Link to="/biogenetic-page/" className="text-success btn btn-outline-success mt-1 btn-block">Home</Link>
               </li>
               <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
-                <Link to="biogenetic-page/build/services" className="text-success btn btn-outline-success mt-1 btn-block">Servicios</Link>
+                <Link to="/biogenetic-page/services" className="text-success btn btn-outline-success mt-1 btn-block">Servicios</Link>
               </li>
               <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
-                <Link to="biogenetic-page/build/contact" className="text-success btn btn-outline-success mt-1 btn-block">Contacto</Link>
+                <Link to="/biogenetic-page/my-jobs" className="text-success text-nowrap btn btn-outline-success mt-1 btn-block">Mi Trabajo</Link>
+              </li>
+              <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
+                <Link to="/biogenetic-page/events" className="text-success btn btn-outline-success mt-1 btn-block">Eventos</Link>
+              </li>
+              <li className="nav-item ml-1 mr-1" onClick={window.screen.width < 992 ? toggleMenu : null}>
+                <Link to="/biogenetic-page/contact" className="text-success btn btn-outline-success mt-1 btn-block">Contacto</Link>
               </li>
               <ul className="social-media-horizontal">
                 <li className="social-media">
@@ -67,13 +73,19 @@ function App() {
         </nav>
         <div className="bio-green"></div>
         <Switch>
-          <Route exact path="/">
+          <Route exact path="/biogenetic-page/">
             <Home></Home>
           </Route>
-          <Route exact path="/services">
+          <Route exact path="/biogenetic-page/services">
             <h2>Servicios</h2>
           </Route>
-          <Route exact path="/contact">
+          <Route exact path="/biogenetic-page/my-jobs">
+            <h2>Mi Trabajo</h2>
+          </Route>
+          <Route exact path="/biogenetic-page/events">
+            <h2>Eventos</h2>
+          </Route>
+          <Route exact path="/biogenetic-page/contact">
             <h2>Contacto</h2>
           </Route>
         </Switch>

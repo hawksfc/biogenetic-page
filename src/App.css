@@ -3,6 +3,9 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.caja{
+    box-sizing: border-box;
+}
 
 .txt-motivation{
     font-family: 'Poppins';
@@ -45,6 +48,7 @@
 }
 .list-none{
     list-style: none;
+    padding: 0;
 }
 /*Specifics Class*/
 
@@ -55,7 +59,7 @@
 }
 
 .expandido{
-    height: 180px;
+    height: 280px;
     border-radius: 5px;
 }
 
