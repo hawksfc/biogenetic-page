@@ -13,13 +13,13 @@ const Footer = () => {
                     <h3 className="ml-4 mt-4 align-center">Menu</h3>
                     <ul className="list-none mt-2 list-nav">
                         <li className="mb-2">
-                            <Link to="biogenetic-page/build/">Inicio</Link>
+                            <Link to="biogenetic-page/">Inicio</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="biogenetic-page/build/services">Servicios</Link>
+                            <Link to="biogenetic-page/services">Servicios</Link>
                         </li>
                         <li className="mb-2">
-                            <Link to="biogenetic-page/build/contact">Contacto</Link>
+                            <Link to="biogenetic-page/contact">Contacto</Link>
                         </li>
                     </ul>
                 </div>
